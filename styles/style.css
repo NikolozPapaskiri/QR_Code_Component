@@ -6,8 +6,23 @@
     color: hsl(228, 45%, 44%);
 }
 
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .qrBackground {
-    width: 576px;
+    width: auto;
     height: 576px;
     background-color: #00C6FF;
     border-radius: 20px;
@@ -21,4 +36,22 @@
     top: 50%;
     left: 50%;
     margin: -225px 0 0 -225px
+}
+
+.card {
+    width: 616px;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.h1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
 }
