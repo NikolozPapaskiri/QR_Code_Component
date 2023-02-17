@@ -1,0 +1,24 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.qrBackground {
+    width: 576px;
+    height: 576px;
+    background-color: #00C6FF;
+    border-radius: 20px;
+    position: relative;
+}
+
+.qr {
+    width: 450px;  
+    height: 450px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -225px 0 0 -225px
+}
