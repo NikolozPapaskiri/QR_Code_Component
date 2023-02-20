@@ -1,6 +1,10 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -17,8 +21,8 @@ html {
 
 body {
     background-color: hsl(212, 45%, 89%);
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
 }
 
 .qrBackground {
